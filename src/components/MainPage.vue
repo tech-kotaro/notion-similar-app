@@ -24,9 +24,6 @@
       <button class="transparent" @click="onClickButtonAdd">
         <i class="fas fa-plus-square"></i>ノートを追加
       </button>
-        <pre>   
-         {{ noteList }}
-        </pre>
     </div>
     <div class="right-view" @click.self="onEditNoteEnd()">
       <!--右ビュー-->
